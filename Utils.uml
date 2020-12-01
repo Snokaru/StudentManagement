@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Utils</OriginalElement>
+  <nodes>
+    <node x="332.0" y="1165.0">App</node>
+    <node x="337.0" y="913.0">ListStudentsState</node>
+    <node x="1003.0" y="949.0">EnrollmentDetailState</node>
+    <node x="1779.0" y="925.0">StudentDetailState</node>
+    <node x="746.0" y="961.5">AddCourseState</node>
+    <node x="2635.0" y="949.0">CourseDetailState</node>
+    <node x="590.0" y="1165.0">Factory</node>
+    <node x="0.0" y="0.0">Student</node>
+    <node x="2116.0" y="961.5">InitialState</node>
+    <node x="0.0" y="1165.0">AppData</node>
+    <node x="1564.0" y="1165.0">Utils</node>
+    <node x="1453.0" y="708.0">State</node>
+    <node x="1384.0" y="913.0">ListCoursesState</node>
+    <node x="488.0" y="0.0">Enrollment</node>
+    <node x="932.0" y="0.0">Course</node>
+    <node x="2373.0" y="961.5">AddStudentState</node>
+    <node x="0.0" y="925.0">EnrollStudentState</node>
+    <node x="1243.0" y="1165.0">CSVFileHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="InitialState" target="State">
+      <point x="0.0" y="-55.0" />
+      <point x="2234.5" y="883.0" />
+      <point x="1624.1666666666665" y="883.0" />
+      <point x="52.666666666666515" y="67.5" />
+    </edge>
+    <edge source="CourseDetailState" target="State">
+      <point x="0.0" y="-67.5" />
+      <point x="2786.5" y="863.0" />
+      <point x="1676.8333333333333" y="863.0" />
+      <point x="105.33333333333326" y="67.5" />
+    </edge>
+    <edge source="ListCoursesState" target="State">
+      <point x="0.0" y="-103.5" />
+      <point x="0.0" y="67.5" />
+    </edge>
+    <edge source="StudentDetailState" target="State">
+      <point x="0.0" y="-91.5" />
+      <point x="1937.5" y="893.0" />
+      <point x="1597.8333333333333" y="893.0" />
+      <point x="26.333333333333258" y="67.5" />
+    </edge>
+    <edge source="AddStudentState" target="State">
+      <point x="0.0" y="-55.0" />
+      <point x="2494.0" y="873.0" />
+      <point x="1650.5" y="873.0" />
+      <point x="79.0" y="67.5" />
+    </edge>
+    <edge source="EnrollStudentState" target="State">
+      <point x="0.0" y="-91.5" />
+      <point x="158.5" y="863.0" />
+      <point x="1466.1666666666667" y="863.0" />
+      <point x="-105.33333333333326" y="67.5" />
+    </edge>
+    <edge source="ListStudentsState" target="State">
+      <point x="0.0" y="-103.5" />
+      <point x="531.5" y="873.0" />
+      <point x="1492.5" y="873.0" />
+      <point x="-79.0" y="67.5" />
+    </edge>
+    <edge source="AddCourseState" target="State">
+      <point x="0.0" y="-55.0" />
+      <point x="864.5" y="883.0" />
+      <point x="1518.8333333333333" y="883.0" />
+      <point x="-52.66666666666674" y="67.5" />
+    </edge>
+    <edge source="EnrollmentDetailState" target="State">
+      <point x="0.0" y="-67.5" />
+      <point x="1183.5" y="893.0" />
+      <point x="1545.1666666666667" y="893.0" />
+      <point x="-26.333333333333258" y="67.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6462715105162524" x="1036.0" y="887.7707100591716" />
+  <SelectedNodes>
+    <node>Utils</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
